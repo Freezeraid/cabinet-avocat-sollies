@@ -27,7 +27,7 @@ export async function POST(request) {
     // Email content
     const mailOptions = {
       from: process.env.GMAIL_USER,
-      to: 'kilanju@gmail.com',
+      to: 'cecile.brun@avocatsollies.fr',
       subject: `Nouveau contact depuis le site - ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

@@ -113,7 +113,7 @@ export default function HomePage() {
                   />
                 </div>
                 <h2 className="text-2xl text-primary font-serif font-semibold mb-2">
-                  Maître Cécile Brun
+                Maître Cécile Brun
                 </h2>
               </div>
               

@@ -22,7 +22,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center focus-visible">
               <div className="text-2xl font-serif font-bold text-primary">
-                Cabinet d'Avocat
+                Maître Cécile BRUN
               </div>
             </Link>
           </div>

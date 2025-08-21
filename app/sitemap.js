@@ -15,6 +15,12 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/avocat-toulon`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/domaines`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -27,7 +33,7 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/domaines/penal`,
+      url: `${baseUrl}/domaines/commercial`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
@@ -43,30 +49,6 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/actualites`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/actualites/nouveau-divorce-par-consentement-mutuel`,
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/actualites/reforme-droit-travail-2024`,
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/actualites/garde-vue-droits-obligations`,
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.6,
     },
     {
       url: `${baseUrl}/faq`,

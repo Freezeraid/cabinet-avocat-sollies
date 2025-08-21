@@ -9,11 +9,6 @@ export default function Footer() {
     { name: 'Contact', href: '/contact' },
   ];
 
-  const legalLinks = [
-    { name: 'Mentions légales', href: '/mentions-legales' },
-    { name: 'Politique de confidentialité', href: '/politique-confidentialite' },
-  ];
-
   return (
     <footer className="bg-neutral-text text-white">
       <div className="container-custom section-padding">
@@ -105,17 +100,6 @@ export default function Footer() {
                   Killian DOUBRE
                 </a>
               </div>
-            </div>
-            <div className="flex space-x-6">
-              {legalLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  className="text-gray-400 hover:text-white text-sm transition-colors focus-visible"
-                >
-                  {link.name}
-                </Link>
-              ))}
             </div>
           </div>
         </div>

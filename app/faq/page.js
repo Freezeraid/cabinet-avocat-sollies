@@ -240,7 +240,7 @@ export default function FaqPage() {
                   En cas d'urgence juridique, contactez-moi immédiatement. 
                 </p>
                 <a href="tel:+33494135380" className="text-primary font-medium text-sm hover:underline">
-                  Appel d'urgence →
+                  Appelez maintenant →
                 </a>
               </div>
               

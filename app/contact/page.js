@@ -270,7 +270,7 @@ export default function ContactPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+33494135380" className="btn-secondary bg-white text-primary hover:bg-gray-100">
-                  Appel d'urgence : 04 94 13 53 80
+                  Appelez maintenant : 04 94 13 53 80
                 </a>
               </div>
             </div>

@@ -107,7 +107,7 @@ export default function HomePage() {
               <div className="mb-8">
                 <div className="w-48 h-48 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
                   <img 
-                    src="https://le-cdn.website-editor.net/s/347c328e233e480caeab25c95dbe6c65/dms3rep/multi/opt/BRUN-CECILE-1081dfad-1920w.jpg?Expires=1757476978&Signature=PPtXg~brHjehT0p5H6Rl0I7tarzqLzEmddqbje568W9maVxOo6kad7QumM2cKYH548py4qYxkFgfU9Vxy24QgXpOzwsZc~P8SeRHoWJvtuo6GBQwKnfLkrYH4DiPREtQ47HvAIndhVCr3UrjC2rIwHu66gErAk1T04Tf3ws0bqQgrqdi7KAqVW8SSuR5S-bv3uMiQxCfal~X64qcMTUM295oEE-IR6rihmSCTL0PPD2TS-TE0Keg6ko-B8HS6uxfx4gv6dQ9DX3y3wFnM75SYMhIEymx42d~KeEPEhoiYsy7oc3TtyEAktmpZpHDGUa4sdd~qULb5IGtInQ1qsP~RQ__&Key-Pair-Id=K2NXBXLF010TJW"
+                    src="/images/cecile-brun.webp"
                     alt="Maître Cécile Brun - Avocate"
                     className="w-full h-full object-cover"
                   />

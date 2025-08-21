@@ -34,19 +34,31 @@ export default function ContactForm({ isFooter = false }) {
     setSubmitStatus(null);
 
     try {
-      // TODO: Replace with actual form submission logic
-      // This could be an API route, email service, etc.
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
-      
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-        honeypot: '',
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+          honeypot: '',
+        });
+      } else {
+        console.error('Form submission error:', result.error);
+        setSubmitStatus('error');
+      }
     } catch (error) {
+      console.error('Network error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);

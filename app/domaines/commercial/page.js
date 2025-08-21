@@ -333,7 +333,7 @@ export default function DroitCommercialPage() {
                 Prendre rendez-vous
               </Button>
               <Button href="tel:+33494135380" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                Appel d'urgence
+                Appelez maintenant
               </Button>
             </div>
           </div>
